@@ -9,7 +9,7 @@ def function():
 def GUI():
     layout = [
         [sg.Text('ビンゴ!')],
-        [sg.Text('抽選1'), sg.Button('抽選')]
+        [sg.Button('抽選')]
     ]
 
     window = sg.Window('ビンゴゲーム', layout)
